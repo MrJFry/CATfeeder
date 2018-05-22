@@ -43,7 +43,9 @@ Print the spacers for the stepper twice and glue the with loctite in the right p
 Print the adapter once and stick it on the feed2 part. 
 For more stability you can also insert screws in the holes, but I don't needed them.
 As a hopper I simply used a cleaned Arizona ice tea bottle and cut the bottom of.
-I glued everything together with duct tape.
+
+As you can see on the pictures I glued everything together with duct tape to find the best angle for the nozzle but this is only for testing.
+I recommend using loctite to glue the parts toghether.
 
 # Software
 
