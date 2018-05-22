@@ -58,7 +58,8 @@ To use this you have to install the latest arduino IDE and the following libs:
 
 Simply add your wifi name and password in the .ino script, flash it to the ESP8266 using the programming board and open the serial monitor.
 The ESP8266 will print his own IP-address in the serial monitor.
-Copy this address and open it with your webbrowser.
+Copy this address and replace every IPaddressofESP8266 in the .ino with the Ip-address.
+Now you can open it with your webbrowser.
 
 Have fun feeding your cat ;-)
 
