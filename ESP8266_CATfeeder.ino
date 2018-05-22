@@ -38,7 +38,6 @@ String messageroot = "<html><head></head><body style='font-family: sans-serif; f
   messageroot += "<a href='/shake'><b>/shake</b></a> shakes the rotor.<br><br>";
   messageroot += "<a href='/+1'><b>/+1</b></a> give him a treat.<br><br>";
   
-  messageroot += "go back to <a href='http://192.168.178.20/tab.php'><b>RPIswitch</b></a></body></html>";
 
   server.send(200, "text/html", messageroot);
 }
@@ -142,7 +141,7 @@ void setup(void){
              messagefeed += "<html><head></head><body style='font-family: sans-serif; font-size: 70px'>Following functions are available:<br><br>";
              messagefeed += "<a href='/feed'><b>/feed</b></a> feeds the cat another time.<br><br>";
              messagefeed += "<a href='/feed'><b>/shake</b></a> Shake the rotor.<br><br>";
-             messagefeed += "go <a href='http://192.168.178.96'><b>BACK</b></a></body></html>";
+             messagefeed += "go <a href='http://IPaddressofESP8266'><b>BACK</b></a></body></html>";
     server.send(200, "text/html", messagefeed); 
   });
 
@@ -151,7 +150,7 @@ void setup(void){
       String messagefeed = "<html><head></head><body style='font-family: sans-serif; font-size: 70px'><b>Yo! Harald has been feeded!</b><br><br>";
              messagefeed += "<html><head></head><body style='font-family: sans-serif; font-size: 70px'>Following functions are available:<br><br>";
              messagefeed += "<a href='/unfeed'><b>/unfeed</b></a> unfeeds the cat another time.<br><br>";
-             messagefeed += "go <a href='http://192.168.178.96'><b>BACK</b></a></body></html>";
+             messagefeed += "go <a href='http://IPaddressofESP8266'><b>BACK</b></a></body></html>";
     server.send(200, "text/html", messagefeed); 
   });
 
@@ -165,7 +164,7 @@ void setup(void){
       String messagefeed = "<html><head></head><body style='font-family: sans-serif; font-size: 70px'><b>Yo! Harald has been feeded!</b><br><br>";
              messagefeed += "<html><head></head><body style='font-family: sans-serif; font-size: 70px'>Following functions are available:<br><br>";
              messagefeed += "<a href='/feed'><b>/feed</b></a> feeds the cat.<br><br>";
-             messagefeed += "go <a href='http://192.168.178.96'><b>BACK</b></a></body></html>";
+             messagefeed += "go <a href='http://IPaddressofESP8266'><b>BACK</b></a></body></html>";
     server.send(200, "text/html", messagefeed); 
   });
 
@@ -175,7 +174,7 @@ void setup(void){
              messagefeed += "<html><head></head><body style='font-family: sans-serif; font-size: 70px'>Following functions are available:<br><br>";
              messagefeed += "<a href='/+1'><b>/+1</b></a> give another one.<br><br>";
              messagefeed += "<a href='/feed'><b>/feed</b></a> give him a full bowl.<br><br>";
-             messagefeed += "go <a href='http://192.168.178.96'><b>BACK</b></a></body></html>";
+             messagefeed += "go <a href='http://IPaddressofESP8266'><b>BACK</b></a></body></html>";
     server.send(200, "text/html", messagefeed); 
   });
 
