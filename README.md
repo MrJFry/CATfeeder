@@ -54,5 +54,13 @@ To use this you have to install the latest arduino IDE and the following libs:
 - <ESP8266> https://github.com/esp8266/Arduino
 - <Stepper2.h> https://github.com/Samireltabal/Stepper2 
 
+# How to?
+
+Simply add your wifi name and password in the .ino script, flash it to the ESP8266 using the programming board and open the serial monitor.
+The ESP8266 will print his own IP-address in the serial monitor.
+Copy this address and open it with your webbrowser.
+
+Have fun feeding your cat ;-)
+
 
 
