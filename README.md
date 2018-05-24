@@ -2,7 +2,7 @@
 Source Code for an ESP8266- powered cat feeder.
 
 At the weekend it was a pain in the ass to get up feed my cat at 6am. 
-So I built a more comfortable way to feed him with a click of a button on your smartphone while staing in bed ;-)
+So I built a more comfortable way to feed him with a click of a button on your smartphone while staying in bed ;-)
 
 # Hardware
 
@@ -51,8 +51,8 @@ I recommend using loctite to glue the parts toghether.
 
 To use this you have to install the latest arduino IDE and the following libs:
 
-- <ESP8266> https://github.com/esp8266/Arduino
-- <Stepper2.h> https://github.com/Samireltabal/Stepper2 
+- ESP8266:  https://github.com/esp8266/Arduino
+- Stepper2: https://github.com/Samireltabal/Stepper2 
 
 # How to?
 
