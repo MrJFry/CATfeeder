@@ -49,23 +49,23 @@ ULN2003:
 
 NEMA17:
 
-| ESP8266  |  A4988   | NEMA17 |
-| -------  | ---      |        |
-| GPIO14   | DIRECTION|        |
-| GPIO12   | STEP     |        |
-| GPIO16   | /ENABLE  |        |
-| GPIO15   | IN4      |        |
-| GND      |  MS1     |        |
-| GND      |  MS2     |        |
-| GND      |  MS3     |        |
-|          |  2B      |   2B   |
-|          |  2A      |   2A   |
-|          |  1A      |   1A   |
-|          |  1B      |   1B   |
-| GND      |  GND     |        |
-| +12V     |  VMOT    |        |
-| GND      |  -       |        |
-| +5V      |  VDD     |        |
+| ESP8266  |  A4988   | NEMA17  |
+| -------  | -------- | ------- |
+| GPIO14   | DIRECTION|   -     |
+| GPIO12   | STEP     |   -     |
+| GPIO16   | /ENABLE  |   -     |
+| GPIO15   | IN4      |   -     |
+| GND      |  MS1     |   -     |
+| GND      |  MS2     |   -     |
+| GND      |  MS3     |   -     |
+|  -       |  2B      |   2B    |
+|  -       |  2A      |   2A    |
+|  -       |  1A      |   1A    |
+|  -       |  1B      |   1B    |
+| GND      |  GND     |    -    |
+| +12V     |  VMOT    |    -    |
+| GND      |  GND     |    -    |
+| +5V      |  VDD     |    -    |
 
 Bridge between /RESET and /SLEEP.
 MS1 /MS2 /MS3 is configurated to full step.
