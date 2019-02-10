@@ -37,6 +37,7 @@ For the NEMA17 Motor
 ### Wiring
 
 ULN2003:
+
 | ESP8266  | ULN2003|
 | -------  | ---    |
 | GPIO14   | IN1    |
@@ -45,6 +46,8 @@ ULN2003:
 | GPIO15   | IN4    |
 | GND      |  -     |
 | VCC      |  +     |
+
+NEMA17:
 
 | ESP8266  |  A4988   | NEMA17 |
 | -------  | ---      |        |
