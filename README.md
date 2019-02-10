@@ -27,9 +27,9 @@ For the 28BYJ-48 Motor:
 - ULN2003 Stepper Driver (I found motor and driver as a set on amazon for cheap: https://goo.gl/UivXvD)
 
 For the NEMA17 Motor
-- NEMA 17 Stepper Motor (https://www.amazon.de/Longruner-Stepper-Verbinder-Montagehalterung-LD08/dp/B07FKH52S5/ref=sr_1_2_sspa?s=industrial&ie=UTF8&qid=1549824714&sr=1-2-spons&keywords=nema+17&psc=1)
+- NEMA 17 Stepper Motor (https://goo.gl/EmL3CK)
 
-- A4988 Stepper Motor Driver (https://www.amazon.de/Longruner-Stepstick-Stepper-Driver-Printer/dp/B071P41ZBW/ref=sr_1_1?s=industrial&ie=UTF8&qid=1549824766&sr=1-1&keywords=a4988&th=1)
+- A4988 Stepper Motor Driver (https://goo.gl/a9X8M3)
 
 
 ## Hardware Setup
